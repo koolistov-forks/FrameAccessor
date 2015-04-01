@@ -7,7 +7,7 @@
 //
 
 
-#define IS_IOS_DEVICE (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
+#define IS_IOS_DEVICE 1
 
 #if IS_IOS_DEVICE
     #import <UIKit/UIKit.h>
